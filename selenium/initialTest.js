@@ -58,7 +58,7 @@ let driver = new Builder()
     // Opens a new window and switches to new window
     await driver.switchTo().newWindow('window');
     await driver.sleep(2000)
-    
+
     //Close the tab or window
     await driver.close();
     await driver.sleep(2000)
